@@ -13,4 +13,4 @@ RUN poetry install
 COPY . .
 
 ENTRYPOINT ["uvicorn"]
-CMD ["app:app --host 0.0.0.0 --port 8000"]
+CMD ["app:app", "--host", "0.0.0.0", "--port", "8000"]
