@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "feedback-auth"
+version = "0.1.0"
+description = ""
+authors = ["redstonedesigner <redstonedesigner1@gmail.com>"]
+readme = "README.md"
+packages = [{ include = "feedback_auth" }]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+fastapi = "0.77.1"
+python-jose = { extras = ["cryptography"], version = "^3.3.0" }
+fastapi-discord = "^0.2.2"
+python-dotenv = "^0.20.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
