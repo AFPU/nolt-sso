@@ -4,7 +4,7 @@ version = "0.1.0"
 description = ""
 authors = ["redstonedesigner <redstonedesigner1@gmail.com>"]
 readme = "README.md"
-packages = [{ include = "feedback_auth" }]
+packages = []
 
 [tool.poetry.dependencies]
 python = "^3.10"
