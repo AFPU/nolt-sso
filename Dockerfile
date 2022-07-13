@@ -1,4 +1,4 @@
-FROM python:3.10-alpine
+FROM python:3.10
 
 ENV PIP_NO_CACHE_DIR=false
 ENV POETRY_VIRTUALENVS_CREATE=false
