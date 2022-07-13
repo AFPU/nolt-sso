@@ -12,5 +12,5 @@ RUN poetry install
 
 COPY . .
 
-ENTRYPOINT ["python3"]
-CMD ["app.py"]
+ENTRYPOINT ["uvicorn"]
+CMD ["app:app --host 0.0.0.0 --port 8000"]
